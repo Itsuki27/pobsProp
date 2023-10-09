@@ -1,0 +1,109 @@
+body {
+  background-color: #222222;
+  /* no-repeat center center fixed; */
+  font-family: "Courier New";
+  color: azure;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#navigation div a:hover {
+  background-color: #af3333;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+}
+
+div a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ph1 {
+  margin: auto;
+  width: 30%;
+  padding: 0px;
+  top: 31%;
+  position: absolute;
+  font-size: 15px;
+  left: -15px;
+}
+
+/* .header1 {
+  margin: auto;
+  width: 30%;
+  padding: 0px;
+  top: 20%;
+  position: absolute;
+  font-size: 30px;
+}
+
+.main {
+  margin: auto;
+  width: 30%;
+  padding: 50px;
+  top: 30%;
+  position: absolute;
+  font-size: 20px;
+  text-align: justify;
+} */
+.img1 {
+    border-radius: 50%;
+    width: 200px ;
+    height: 200px;
+    
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.content1{
+    font-size: 20px;
+}
+
+.header1{
+    margin: 0px;
+    color: green;
+}
+
+.pic1{
+    display: flex;
+     width: 400px; 
+     height: 100%"
+}
+
+.hover1 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover1 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.myVideo{
+  filter: drop-shadow(0 0 3px white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

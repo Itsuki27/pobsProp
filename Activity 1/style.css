@@ -1,0 +1,113 @@
+#navigation div a:hover {
+    background-color: #af3333;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .ul1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  div a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .hover1 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .hover1 figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  .img1 {
+    border-radius: 50%;
+    width: 200px ;
+    height: 200px;
+    
+}
+
+.hover2 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover2 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.img2 {
+  border-radius: 50%;
+  width: 200px ;
+  height: 200px;
+  
+}
+
+.hover3 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover3 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.img3 {
+  border-radius: 50%;
+  width: 200px ;
+  height: 200px;
+  
+}
+
+.hover4 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover4 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.img4 {
+  border-radius: 50%;
+  width: 200px ;
+  height: 200px;
+  
+}
+
+.hover5 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover5 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.img5 {
+  border-radius: 50%;
+  width: 200px ;
+  height: 200px;
+  
+}

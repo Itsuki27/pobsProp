@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .main-container {
+        background-color: #bca37f;
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        padding: 2rem;
+      }
+      .secondary-container {
+        width: 100%;
+        flex: 1;
+        background-color: #ead7bb;
+        border-radius: 25px;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="secondary-container">
+        <div style="flex: 1">
+          <img
+            src="./assets/joker.png"
+            alt=""
+            style="transform: translateY(-50px); width: 400px; filter: drop-shadow(0 0 10px black);"
+          />
+        </div>
+        <div
+          style="flex: 1; display: flex; flex-direction: column; padding: 1rem"
+        >
+          <p style="font-size: 2em">Joker</p>
+          <p>
+            Joker (ジョーカー, Jōkā) is a former pyrokinetic and a
+            self-proclaimed anti-hero that serves as the Fourth Pillar's
+            guardian. Being abandoned as a child, he was raised and excelled in
+            the assassin group Holy Sol's Shadow, under the moniker of Five-Two.
+            After experiencing an Adolla Link and losing his left eye in the
+            process, he gained the desire to discover the truth of the world by
+            any means necessary.
+          </p>
+          <div>
+            <p style="font-size: 2em; margin-top: 20px">Release Date</p>
+            <p>
+              The first season aired from July 6 to December 28, 2019 on Japan
+              News Network stations MBS and TBS as part of the Super Animeism
+              block. It ran for 24 episodes. On May 16, 2022, the “Fire Force”
+              official Twitter account announced that season 3 would really be
+              returning. The tweet featured a photo of the teen with a sharp set
+              of teeth, Shinra Kusakabe, posing after launching one of his
+              strikes
+            </p>
+          </div>
+          <div style="margin-top: 20px">
+            <p style="font-size: 2em">Ratings</p>
+            <div style="display: flex; gap: 20px">
+              <div>
+                <p>Imdb Rating</p>
+                <div style="display: flex; align-items: baseline; gap: 10px">
+                  ⭐
+                  <p>8.5/10</p>
+                </div>
+              </div>
+              <div>
+                <p>Your Rating</p>
+                <div style="display: flex; align-items: baseline; gap: 10px">
+                  ⭐
+                </div>
+              </div>
+              <div>
+                <p>Popularity</p>
+                <div style="display: flex; align-items: baseline; gap: 10px">
+                  💹
+                  <p>37</p>
+                  <p>🔼25</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
